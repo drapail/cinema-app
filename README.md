@@ -1,4 +1,4 @@
-# cinema-app
+# [Cinema App](http://dibrov-cinema-app.herokuapp.com/login)
 This application implements functionality for a cinema with several halls.
 It is possible to register visitors who will be able to purchase tickets for a certain time in the selected hall
 The project is built using Java and popular frameworks such as Spring and Hibernate.
@@ -69,3 +69,8 @@ Includes authentication/authorization, REST, and a global wait handler.
 2. User
 - Login: regular@i.ua
 - Password: regular321
+
+# Heroku
+
+This project is also deployed to Heroku. AWS RDS MySQL instance is used as a DB. You can click it via this link:
+[Heroku Link](http://dibrov-cinema-app.herokuapp.com/login)
