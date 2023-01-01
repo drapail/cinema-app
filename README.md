@@ -15,11 +15,10 @@ Includes authentication/authorization, REST, and a global wait handler.
     - cinema halls (GET: /cinema-halls)
     - movies (GET: /movies)
     - available movie sessions (GET: /movie-sessions/available)
-    - some specific movie session (GET: /movie-sessions/{id})
 - Add new:
     - cinema halls (POST: /cinema-halls)
     - movies (POST: /movies)
-    - movie sessions (POST: /movie-sessions)
+    - movie sessions (POST: /movie-sessions). "showTime" should be passed as a list: [YYYY,m,d,HH,mm,ss]
 - Update and delete movie session (PUT: /movie-sessions/{id}, DELETE: /movie-sessions/{id})
 - Get some user by email (GET: /users/by-email)
 - Logout (GET: /logout)
@@ -29,7 +28,6 @@ Includes authentication/authorization, REST, and a global wait handler.
     - cinema halls (GET: /cinema-halls)
     - movies (GET: /movies)
     - available movie sessions (GET: /movie-sessions/available)
-    - some specific movie session (GET: /movie-sessions/{id})
 - Get orders and shopping carts (GET: /orders, GET: /shopping-carts/by-user)
 - Complete orders (POST: /orders/complete)
 - Add tickets to shopping cart for some movie session (PUT: /shopping-carts/movie-sessions)
